@@ -13,9 +13,9 @@ class UserController extends Controller
      * @param  int  $id
      * @return View
      */
-    public function show($id)
+    public function show()
     {
-        echo $id;
+        echo "working";
         //return view('user.profile', ['user' => User::findOrFail($id)]);
     }
 }
